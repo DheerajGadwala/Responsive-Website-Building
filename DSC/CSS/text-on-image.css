@@ -1,0 +1,55 @@
+.text-on-image{
+    font-family: Helvetica, Verdana;
+    color: #FFF;
+    z-index: 200;
+}
+
+.container-class {
+    position: relative;
+}
+.container-class .image-for-text {
+    z-index: 1;
+}
+.text-on-image {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    top: 15%;
+    left: 48%;
+    transform: translate(-40%, -50%);
+    display: grid;
+    place-items: center;
+    border-radius:.50rem;
+    background-color: #000;
+    position: absolute;
+    height: 85px;
+    width: 200px;
+    opacity: 0.65;
+    color: #FFF;
+    z-index: 1;
+}
+.text-on-image:hover {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    top: 15%;
+    left: 48%;
+    transform: translate(-40%, -50%);
+    display: grid;
+    place-items: center;
+    border-radius:.50rem;
+    background-color: rgb(54, 54, 54);
+    position: absolute;
+    height: 85px;
+    width: 200px;
+    opacity: 0.65;
+    color: #FFF;
+    z-index: 1;
+    cursor: pointer;
+}

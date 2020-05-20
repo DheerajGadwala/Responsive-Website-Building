@@ -1,0 +1,91 @@
+/*CLEAR FIX FOR FLOATS*/
+.clearFix::before,
+.clearFix::after {
+    content: "";
+    display: table;
+}
+
+.clearFix::after {
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+
+.clearFix {
+    zoom: 1;
+    margin: 0;
+    padding: 0;
+}
+/*END CLEAR FIX*/
+.courosell{
+    margin: 0 auto;
+    max-width:144rem;
+    max-height: 144rem;
+    overflow: hidden;
+}
+
+.courosell .fig-c {
+    width: 500%;
+    position: relative;
+    animation: slide 20s linear infinite;
+    
+}
+
+.courosell .fig-c img {
+    display: block;
+    float: left;
+    width: 20%;
+    height: 80%;
+}
+
+@keyframes slide{
+    0%{
+        left: 0%;
+    }
+    13.5%{
+        left: 0%;
+    }
+    18.5%{
+        left: -105%;
+    }
+    20%{
+        left: -100%;
+    }
+    33.5%{
+        left: -100%;
+    }
+    38.5%{
+        left: -205%;
+    }
+    40%{
+        left: -200%;
+    }
+    53.5%{
+        left: -200%;
+    }
+    58.5%{
+        left: -305%;
+    }
+    60%{
+        left: -300%;
+    }
+    73.5%{
+        left: -300%;
+    }
+    78.5%{
+        left: -405%;
+    }
+    80%{
+        left: -400%;
+    }
+    93.5%{
+        left: -400%;
+    }
+    98.5%{
+        left: 5%;
+    }
+    100%{
+        left: 0%;
+    }   
+}
+

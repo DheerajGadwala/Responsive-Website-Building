@@ -1,0 +1,39 @@
+.dataSections {
+    height: 100vh;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.dataSections h2 {
+    opacity: 0;
+    transition: opacity 1500ms;
+    
+}
+
+.dataSections .sectionDiv {
+    opacity: 0;
+    transition: opacity 1500ms;
+}
+
+.sectionDiv {
+    margin-left: 2.5rem;
+    margin-top: 3.5rem;
+    display: grid;
+    align-content: flex-start;
+    border-radius:.50rem;
+    background-color: #000;
+    position: absolute;
+    height: 70%;
+    width: 90%;
+    opacity: 0.55;
+    color: #FFF;
+    z-index: 1;
+}
+
+.dataSections.is-visible h2 {
+    opacity: 1;
+}
+.dataSections.is-visible .sectionDiv {
+    opacity: 1;
+}
