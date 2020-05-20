@@ -1,2 +1,2 @@
 # Responsive-Website-Building
-includes an animated navigation bar, a courosell, smooth scrolling, animations on scrolling
+includes an animated navigation bar, a courosell, smooth scrolling and animations on scrolling
